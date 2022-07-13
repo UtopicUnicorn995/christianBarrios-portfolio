@@ -6,10 +6,15 @@ body{
 
 .link-custom1{
 	color: #F8F8F8 !important;
+	font-size: 1.2rem;
 }
 .link-custom1:hover{
 	/*transform: scale(1.15);*/
 	color: white;
+}
+
+.navbar{
+	padding: 0.9rem 0.5rem;
 }
 
 @media(min-width: 992px){
@@ -97,6 +102,24 @@ body{
 	opacity: 0;
 	color: white;
 	animation: walaNa 2s ease 3s forwards;
+}
+
+.title-effect::before{
+	content: "";
+	animation: name 3s linear infinite;
+}
+
+@keyframes name{
+
+	0%{
+		content: "Front-end Developer";
+	}
+	50%{
+		content: "Back-end Developer";
+	}
+	100%{
+		content: "Full Stack Web Developer";
+	}
 }
 
 
@@ -319,6 +342,12 @@ small{
 
 .gmap_canvas{
 	border-radius: 25px;
+}
+@media(max-width: 576px){
+	.gmap_canvas, .mapouter{
+		height: 280px !important;
+		width: 380px !important;
+	}
 }
 
 .cint{
