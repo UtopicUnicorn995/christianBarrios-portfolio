@@ -99,11 +99,6 @@ body{
 	animation: walaNa 2s ease 3s forwards;
 }
 
-/*.title-effect:hover{
-	animation: dance 2s ease infinite;
-}*/
-
-
 
 @keyframes dance{
 	0%{
@@ -148,6 +143,7 @@ body{
 	transform: scale(1.15);
 	transition: transform 2s;
 	cursor: pointer;
+	
 }
 .customImg:hover{
 	animation: img 1s ease 500ms forwards;
