@@ -375,7 +375,7 @@ small{
 
 
 	
-}
+
 
 .fa-github, .fa-linkedin, .fa-inbox{
 	font-size: 2rem;
@@ -428,6 +428,7 @@ small{
 	gap: 25px;
 	align-items: center;
 	flex-direction: column;
+	border-radius: 25px;
 }
 
 .form, .form2{
@@ -531,4 +532,10 @@ text-decoration: uppercase;
 
 .form2 input:focus + .label-name::after, .form2 input:valid + .label-name::after{
     transform: translateX(0%);
+}
+
+.form-button{
+	border-radius: 5px;
+	border: none;
+	background-color: #ffffff;
 }
